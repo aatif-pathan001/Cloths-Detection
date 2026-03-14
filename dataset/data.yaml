@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['dress', 'face', 'foot-wear', 'hat', 'lower-wear', 'top-wear']
+
+roboflow:
+  workspace: aatifpathancv
+  project: clothes-detection-es9pt
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/aatifpathancv/clothes-detection-es9pt/dataset/3
